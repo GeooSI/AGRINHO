@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Baloo Bhai 2', variable;
+    color: #2E7D32;
+    background-color: #F1F8E9;
+}
+
+h1, h2 {
+    font-family: 'Sour Gummy', variable;
+    color: #246426;
+    text-shadow: 
+        2px 2px 0 #ffffff, 
+        -2px -2px 0 #ffffff,  
+        2px -2px 0 #ffffff,
+        -2px 2px 0 #ffffff,
+        0px 2px 0 #ffffff, 
+        2px 0px 0 #ffffff, 
+        0px -2px 0 #ffffff,
+        -2px 0px 0 #ffffff;
+}
+
+.hero {
+    background: linear-gradient(rgba(101, 202, 106, 0.466), rgba(41, 110, 44, 0.452)), url('img/Black\ Minimalist\ Music\ YouTube\ Banner\ \(1\).jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.4rem;
+    margin: 10px 0 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin: 40px 0;
+    font-size: 1.3rem;
+}
+
+.about img {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.sustainability ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.sustainability li {
+    background: #A5D6A7;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.call-to-action {
+    background: #81C784;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.call-to-action button {
+    background: #388E3C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.call-to-action button:hover {
+    background: #2E7D32;
+}
+
+footer {
+    background: #388E3C;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
